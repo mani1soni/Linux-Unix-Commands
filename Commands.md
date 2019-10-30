@@ -60,12 +60,12 @@
 
 ## Creating & Viewing Files
 - To create a new file, use the command
-  1. `cat > filename`
+  1. `cat > filename` OR `touch filename`
   2. Add content
   3. Press `ctrl + d` to return to command prompt.
 - Files can also be quickly created using
 - ```echo "Hello World" > ./fileName.txt```
-- To view a file, use the command `cat filename`
+- To view a file, use the command `cat filename` Also `tail -f filename`
 
 ## Searching for content in a file/ files in a directory
 - To search for a word in a file using terminal,use the command ```grep```
